@@ -1,4 +1,15 @@
-# decentree
+# Decentree
+
+The Linktree of Web3 that solves the reputation problem.
+
+# ICP Specifics
+
+To run this locally, follow the running and testing directions in the following two links:
+
+1. https://internetcomputer.org/docs/current/developer-docs/quickstart/hello10mins
+2. https://internetcomputer.org/docs/current/developer-docs/build/languages/rust/rust-quickstart
+
+# DEFAULT README FROM ICP
 
 Welcome to your new decentree project and to the internet computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
 
