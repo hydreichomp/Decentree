@@ -1,5 +1,6 @@
 import { decentree } from "../../declarations/decentree";
 
+/*
 document.querySelector("form").addEventListener("submit", async (e) => {
   e.preventDefault();
   const button = e.target.querySelector("button");
@@ -17,3 +18,14 @@ document.querySelector("form").addEventListener("submit", async (e) => {
 
   return false;
 });
+*/
+
+const copyToClipboard = str => {
+    if (navigator && navigator.clipboard && navigator.clipboard.writeText)
+      return navigator.clipboard.writeText(str);
+    return Promise.reject('The Clipboard API is not available.');
+};
+
+function copyAddress(elem) {
+    copyToClipboard(elem.previousElementSibling.innerHTML);
+}
